@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d3b855f6-3c5c-413b-a175-95e54872e811" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61094/LotteryLookupService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LotteryLookupService.xsd" MetadataType="Schema" ID="5773a15e-fdb4-471d-b2c6-0e3a5dcefd9f" SourceId="1" SourceUrl="http://localhost:61094/LotteryLookupService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LotteryLookupService1.xsd" MetadataType="Schema" ID="4809e567-ff90-4306-a886-41a7fecb010b" SourceId="1" SourceUrl="http://localhost:61094/LotteryLookupService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LotteryLookupService2.xsd" MetadataType="Schema" ID="a1ebc222-30e8-4a3a-866e-c0c9af70ba74" SourceId="1" SourceUrl="http://localhost:61094/LotteryLookupService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LotteryLookupService.wsdl" MetadataType="Wsdl" ID="f6ba1d19-aefa-4e3f-816a-4854e9fcccbd" SourceId="1" SourceUrl="http://localhost:61094/LotteryLookupService.svc?wsdl" />
+    <MetadataFile FileName="LotteryLookupService3.xsd" MetadataType="Schema" ID="e8cee2b5-71cb-4a4c-a79d-dc31d3390efd" SourceId="1" SourceUrl="http://localhost:61094/LotteryLookupService.svc?xsd=xsd3" />
+    <MetadataFile FileName="LotteryLookupService.disco" MetadataType="Disco" ID="6d9b1771-9887-4505-9a9c-19f3609ca8d1" SourceId="1" SourceUrl="http://localhost:61094/LotteryLookupService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

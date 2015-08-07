@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AstonTech.Lottery.Services.DataContracts" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AstonTech.Lottery.Services.DataContracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="LotteryGameDTOCollection">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LotteryGameDTO" nillable="true" type="tns:LotteryGameDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LotteryGameDTOCollection" nillable="true" type="tns:LotteryGameDTOCollection" />
+  <xs:complexType name="LotteryGameDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameNameAbbreviation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryGameId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LotteryGameDTO" nillable="true" type="tns:LotteryGameDTO" />
+</xs:schema>

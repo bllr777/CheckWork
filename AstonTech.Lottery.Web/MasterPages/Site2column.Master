@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2column.Master.cs" Inherits="AstonTech.Lottery.Web.Site2column" EnableViewState="true" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+ 
+        <div id="header">
+            
+         <img class="trees" src="../App_Themes/Main/Images/top-banner-blue-birch-trees.png" />
+
+         <div class="logo"> <img src="../App_Themes/Main/Images/site_logo.png" />
+
+       </div>
+            </div>
+        <div id="wrapper">
+            <div id="main">
+       
+            <div id="navigationcontainer">
+                <div id="navigationcontent">
+                   <ul>
+                      <li runat="server" id="LotteryGameListItem"><a href ="/LotterySection/LotteryBasic.aspx">New Game</a></li>
+                       <li runat="server" id="MaintenanceListItem"><a href ="/Maintenance/">Maintenance</a></li>
+                   </ul>
+                </div>
+            </div>
+
+        
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            
+
+            </div>
+             
+       
+            <div id="footer">
+                <div id="footercontent">
+                    Copyright 2014 Minnesotta Lottery
+                </div>
+            </div>
+    
+      </div>
+    </form>
+</body>
+</html>
